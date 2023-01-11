@@ -1,0 +1,6 @@
+a=list(input("enter the values"))
+b=list(input("enter the values"))
+c=a+b
+c.sort()
+print(c)
+  
