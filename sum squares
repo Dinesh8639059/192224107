@@ -1,0 +1,17 @@
+a=int(input("enter the values"))
+l=[]
+if a>0:
+    while a >=1:
+        i=int(input("enter the number"))
+        l.append(i)
+        a-=1
+        even=0
+        odd=0
+    for k in l:
+        if k%2==0:
+            even+=k**2
+        else:
+            odd+=k**2
+    print("(",odd,",",even,")")
+else:
+    print("invalid input")
